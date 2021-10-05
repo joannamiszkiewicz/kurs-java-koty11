@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="koty-application" />
+        <module name="koty-domain" />
+        <module name="koty-service" />
+        <module name="koty-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="koty-application" target="15" />
+      <module name="koty-domain" target="15" />
+      <module name="koty-service" target="15" />
+      <module name="koty-webapp" target="15" />
+      <module name="kurs-java-koty" target="15" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
